@@ -4,7 +4,9 @@ import streamlit as st
 import pickle
 # import cv2
 import numpy as np
-model = pickle.load(open('model.pkcls', 'rb'))
+with open(model.pkcls, 'rb') as model_file:
+    model = pickle.load(model_file)
+
 user_input = st.text_input("ENTER FILE PATH")
 
 
