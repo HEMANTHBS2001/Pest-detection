@@ -1,7 +1,7 @@
 # pip install opencv-python
 
 import streamlit as st
-# import Orange
+import Orange3
 import pickle
 import pandas as pd
 import numpy as np
