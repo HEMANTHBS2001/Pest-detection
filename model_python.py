@@ -5,6 +5,8 @@ import Orange
 import pickle
 import pandas as pd
 import numpy as np
+from pandas.api.types import SparseDtype
+
 
 st.write('PEST DETECTION')
 with open("StackModel.pkcls","rb") as model:
