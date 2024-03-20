@@ -1,4 +1,4 @@
-pip install Orange3
+
 
 
 import streamlit as st
