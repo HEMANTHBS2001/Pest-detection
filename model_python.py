@@ -1,4 +1,4 @@
-pip install Orange
+
 import Orange
 import pandas as pd
 
