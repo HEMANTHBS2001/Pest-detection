@@ -2,7 +2,7 @@
 
 import streamlit as st
 import pickle
-import cv
+import cv2
 import numpy as np
 model = pickle.load(open('model.pkcls', 'rb'))
 user_input = st.text_input("ENTER FILE PATH")
