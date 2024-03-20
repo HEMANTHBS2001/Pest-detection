@@ -2,12 +2,14 @@
 
 import streamlit as st
 import pickle
-# import cv2
-import numpy as np
-with open('model.pkcls', 'rb') as model_file:
-    model = pickle.load(model_file)
 
-user_input = st.text_input("ENTER FILE PATH")
+st.write('hello')
+# # import cv2
+# import numpy as np
+# with open('model.pkcls', 'rb') as model_file:
+#     model = pickle.load(model_file)
+
+# user_input = st.text_input("ENTER FILE PATH")
 
 
 # model.predict(
