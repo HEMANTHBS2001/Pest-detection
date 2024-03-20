@@ -8,7 +8,6 @@ import pandas as pd
 import numpy as np
 
  
-pickle_out = open("model.pkcls", mode = "rb") 
-pickle.dump(model, pickle_out) 
-pickle_out.close()
+pickle_in = open('model.pkcls', 'rb') 
+classifier = pickle.load(pickle_in)
 
