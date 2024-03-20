@@ -5,7 +5,7 @@ import Orange
 import pickle
 import pandas as pd
 import numpy as np
-from pandas.api.types import SparseDtype
+from pandas.api.types import SparseDtype as pd
 
 
 st.write('PEST DETECTION')
