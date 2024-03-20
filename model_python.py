@@ -9,6 +9,6 @@ import numpy as np
 
 
 st.write('PEST DETECTION')
-# with open("model.pkcls","rb") as model:
-#     loaded_model = pickle.load(model)
+with open("model.pkcls","rb") as model:
+    loaded_model = pickle.load(model)
 
