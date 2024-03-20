@@ -9,6 +9,6 @@ from pandas.api.types import SparseDtype
 
 
 st.write('PEST DETECTION')
-with open("StackModel.pkcls","rb") as model:
+with open("model.pkcls","rb") as model:
     loaded_model = pickle.load(model)
 
