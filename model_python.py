@@ -7,9 +7,8 @@ import pickle
 import pandas as pd
 import numpy as np
 
-
-
-st.write('PEST DETECTION')
-with open("model.pkcls","rb") as model:
-    loaded_model = pickle.load(model)
+ 
+pickle_out = open("model.pkcls", mode = "rb") 
+pickle.dump(model, pickle_out) 
+pickle_out.close()
 
