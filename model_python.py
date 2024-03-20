@@ -1,8 +1,8 @@
-pip install opencv-python
+# pip install opencv-python
 
 import streamlit as st
 import pickle
-import cv2
+import cv
 import numpy as np
 model = pickle.load(open('model.pkcls', 'rb'))
 user_input = st.text_input("ENTER FILE PATH")
