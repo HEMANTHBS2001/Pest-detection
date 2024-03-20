@@ -2,7 +2,7 @@
 
 
 import streamlit as st
-import Orange3
+# import Orange3
 import pickle
 import pandas as pd
 import numpy as np
