@@ -1,4 +1,5 @@
-# pip install opencv-python
+pip install Orange3
+
 
 import streamlit as st
 import Orange3
